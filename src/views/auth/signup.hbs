@@ -1,0 +1,56 @@
+<div class="index">
+    <div class="container p-3 d-flex align-items-center justify-content-center" style="height: 88%;">
+        <div class="sign-up p-5">
+            <h1 class="text-center">Registro</h1>
+            <i class="icon bi bi-person"></i>
+
+            <form class="needs-validation" action="/signup" method="POST">
+                <div class="row g-3">
+                    <div class="col-sm-5">
+                        <input type="text" name="fullname" class="form-control" placeholder="Nombre"
+                            aria-label="First name" autofocus required>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="apellido1" class="form-control" placeholder="Apellido" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="apellido2" class="form-control" placeholder="Apellido">
+                    </div>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-sm-7">
+                        <input type="email" name="correo" class="form-control" placeholder="Correo" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="username" class="form-control" placeholder="Username" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" placeholder="Contraseña" class="form-control" required>
+                </div>
+
+                <div class="choose col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select name="cargo" class="form-select" id="autoSizingSelect" required>
+                        <option selected>Cargo</option>
+                        <option value="administrador">Administrador</option>
+                        <option value="cliente">Cliente</option>
+                    </select>
+                </div>
+
+                <!--<div class="form-group">
+                    <input type="text" name="cargo" placeholder="Cargo" class="form-control" required>
+                </div>-->
+
+                <div class="form-group">
+                    <button class="btn btn-success btn-block w-100">
+                        Regístrarte
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
