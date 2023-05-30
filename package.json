@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "rp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,6 @@
     "express-validator": "^7.0.1",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
-    "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "timeago.js": "^4.0.2"
   },
